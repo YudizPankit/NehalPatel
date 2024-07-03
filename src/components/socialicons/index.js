@@ -7,6 +7,7 @@ import {
   FaLinkedin,
   FaYoutube,
   FaTwitch,
+  FaInstagram,
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
@@ -35,10 +36,10 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-        {socialprofils.linkedin && (
+        {socialprofils.Instagram && (
           <li>
-            <a href={socialprofils.linkedin}>
-              <FaLinkedin />
+            <a href={socialprofils.Instagram}>
+              <FaInstagram />
             </a>
           </li>
         )}
