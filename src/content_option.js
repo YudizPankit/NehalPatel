@@ -1,23 +1,24 @@
-const logotext = "JOHN";
+const logotext = "Bhargav";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Bhargav Patel",
+    description: "Welcome to my professional space! I am Bhargav Patel, a dedicated Company Secretary with over 12+ years of experience in corporate governance, legal compliance, and strategic advisory. My journey in the corporate world has been marked by a commitment to excellence, integrity, and a passion for helping businesses navigate the complexities of regulatory requirements.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Bhargav Patel",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Expert in corporate law",
+        second: "Strategic advisor",
+        third: "Empowering businesses",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Welcome to my professional space! I am Bhargav Patel, a dedicated Company Secretary with over 12+ years of experience in corporate governance, legal compliance, and strategic advisory. My journey in the corporate world has been marked by a commitment to excellence, integrity, and a passion for helping businesses navigate the complexities of regulatory requirements.",
+    // your_img_url: "https://i.ibb.co/W6yYHCj/bhargav.jpg",
+    your_img_url: "https://i.ibb.co/t3KXhCJ/bhargav-removebg-preview.png",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "about my self",
+    aboutme: "A seasoned Company Secretary dedicated to the highest standards of corporate governance and regulatory compliance. With over [insert years of experience] years in the field, my professional journey has been one of continuous learning, growth, and unwavering commitment to excellence.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -37,38 +38,45 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Corporate Governance",
+        value: 95,
+    },
+    {
+        name: "Regulatory Compliance",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Strategic Advisory",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Legal Research",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Stakeholder Communication",
+        value: 92,
     },
     {
-        name: "Jquery",
+        name: "Mergers and Acquisitions",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Corporate Governance",
+        description: "Ensuring that your organization adheres to best practices in corporate governance, fostering transparency and accountability at all levels.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Regulatory Compliance",
+        description: "Providing expert guidance to navigate complex regulatory requirements, ensuring your business remains compliant with all relevant laws and regulations.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Strategic Advisory",
+        description: "Offering strategic advice on business decisions, mergers, acquisitions, and other critical corporate actions to drive growth and success.",
+    },{
+        title: "Legal Documentation",
+        description: "Drafting, reviewing, and managing legal documents to protect your business interests and ensure legal soundness.",
     },
 ];
 
@@ -136,9 +144,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "csbhargavpatel@gmail.com",
+    YOUR_FONE: "+91 98258 00740",
+    description: "Office No. 3, Third Floor, Akshar Tower, Opp. SBI SSI Branch, B/h. IDBI Bank Kanya Chhatralaya Road, Morbi - 363 641, Morbi, Gujarat 363641",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +155,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    // github: "https://github.com",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://in.linkedin.com/in/cs-bhargav-patel-48b748251",
+    twitter: "https://x.com/cs_bhargav",
 };
 export {
     meta,
